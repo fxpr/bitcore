@@ -1,5 +1,8 @@
 'use strict';
 
+var Buffer = require('buffer').Buffer;
+globalThis.Buffer = Buffer
+
 var bitcore = module.exports;
 
 // module information
